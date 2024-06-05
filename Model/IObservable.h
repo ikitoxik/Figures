@@ -1,0 +1,33 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+/**
+\file
+\brief Объявление класса IObservable
+*/
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include <memory>
+#include "../Model/Model_fwd.h"
+
+class IObserver;
+using ObserverSPtr = std::shared_ptr<IObserver>;
+
+////////////////////////////////////////////////////////////////////////////////
+//
+/// Класс IObservable
+/**
+*/
+////////////////////////////////////////////////////////////////////////////////
+class IObservable
+{
+public:
+  /// Деструктор
+  virtual ~IObservable() = default;
+  /// Добавить указатель на наблюдатель
+  virtual void AddObserver(model::UpdateFunc) = 0;
+  /// Уведомить наблюдатель об изменении 
+  virtual void Notify() const = 0;
+};

@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+/**
+\file
+\brief Содержит компоненты, необходимые для класса Geometry
+*/
+//
+////////////////////////////////////////////////////////////////////////////////
+#pragma once
+
+
+#include <optional>
+
+namespace geometry
+{
+	class Point;
+	using PointOpt = std::optional<geometry::Point>;
+} // namespace geometry
+
+

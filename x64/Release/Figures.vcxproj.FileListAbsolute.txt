@@ -1,0 +1,2 @@
+A:\repos\Figures\x64\Release\Figures.exe
+A:\repos\Figs\x64\Release\Figures.exe

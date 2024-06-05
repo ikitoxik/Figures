@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="MainForm">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MainForm\Soure">
+      <UniqueIdentifier>{3fa73887-5054-472a-bf38-3db711e8d931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainForm\Header">
+      <UniqueIdentifier>{b0a72a7e-3b42-4ea8-92c0-38b4bc1b7d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Geometry\Source">
+      <UniqueIdentifier>{7f490cb2-c156-4c5f-bb7a-04e4357692fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Header">
+      <UniqueIdentifier>{f5349894-01d5-411a-8734-91c30cf973bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5285f230-dc70-4cd7-bd9e-e9b57bb56778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{74acd4a3-8f16-480e-9563-40149eac0745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Source">
+      <UniqueIdentifier>{88f813c3-010b-4b42-8f6e-777294750d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Header">
+      <UniqueIdentifier>{e5a541d1-d9c2-42b9-a381-5ca8a84912b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{90ab7874-11b4-46f0-88ca-e0214cfd29d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Source">
+      <UniqueIdentifier>{5d0c40c5-27f3-46e3-bce3-35e744a8e5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Header">
+      <UniqueIdentifier>{3d1b890a-dab2-4e06-8599-86ba7a7f2532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{9c699084-68a8-4b97-9328-a0037175c8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Source">
+      <UniqueIdentifier>{f342704c-ea41-4ca8-95b6-3bfd6fe98ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Header">
+      <UniqueIdentifier>{4e530f02-e04b-48a1-ab67-56b5ddd7fe6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MainForm\Soure</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>MainForm\Soure</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeometryLineSegment.cpp">
+      <Filter>Geometry\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeometryPoint.cpp">
+      <Filter>Geometry\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>Controller\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\PhantomModel.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Figure.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\LineSegment.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Point.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Rectangle.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\RectByCenterAndPoint.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\RectByTwoPoints.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View\IPainter.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewModel.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewPhantom.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Circle.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeometryCircle.cpp">
+      <Filter>Geometry\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainForm.h">
+      <Filter>MainForm\Header</Filter>
+    </QtMoc>
+    <QtMoc Include="View\FiguresView.h">
+      <Filter>View\Header</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model\Figure.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\IFigure.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\IRectParams.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\LineSegment.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model_fwd.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\PhantomModel.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Point.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Rectangle.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\RectByCenterAndPoint.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\RectByTwoPoints.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Geometry_fwd.h">
+      <Filter>Geometry\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeometryLineSegment.h">
+      <Filter>Geometry\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeometryPoint.h">
+      <Filter>Geometry\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Primitive.h">
+      <Filter>Geometry\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Last.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>Controller\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\IObservable.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewModel.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewPhantom.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\IObserver.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewBase.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\IPainter.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="View\View_fwd.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Circle.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeometryCircle.h">
+      <Filter>Geometry\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
